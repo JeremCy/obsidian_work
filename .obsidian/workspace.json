@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "66580a73a24ed324",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "f58a093a593b35cd",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "f52bf3a39e4a1ae0",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -135,12 +135,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "00-Daily notes/20250208.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 20250208"
             }
           },
           {
@@ -182,24 +183,31 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-kanban:Create new board": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "f52bf3a39e4a1ae0",
+  "active": "9552837e533a2557",
   "lastOpenFiles": [
+    "04-Areas",
+    "00-Daily/20250208.md",
+    "01-Resources/Code Reviews.md",
+    "00-Daily notes/2025-02-08.md",
+    "03-Templates/(TEMPLATE) Daily.md",
+    "03-Templates/(TEMPLATE) Daily (Vanilla).md",
+    "03-Templates",
     "2025-02-08.md",
     "Untitled.md",
-    "Daily notes",
+    "00-Daily",
     "Engineering Wiki/Engineering Wiki.md",
-    "Engineering Wiki/Docker.md",
-    "Engineering Wiki/Code Reviews.md",
-    "Projects/Broadcast-cron.md",
-    "Engineering Wiki/Eslint et Prettier.md",
-    "Engineering Wiki/GIT.md",
-    "Engineering Wiki/GITHUB action.md",
-    "Engineering Wiki/Onboarding.md",
-    "Projects/Intranet.md",
-    "Projects/Broadcaster-gui.md",
+    "01-Resources/Docker.md",
+    "02-Projects/Broadcast-cron.md",
+    "01-Resources/Eslint et Prettier.md",
+    "01-Resources/GIT.md",
+    "01-Resources/GITHUB action.md",
+    "01-Resources/Onboarding.md",
+    "02-Projects/Intranet.md",
+    "02-Projects/Broadcaster-gui.md",
     "Untitled.png.md",
     "Untitled 1.png.md",
     "Projects/Intranet fournisseur.md",
@@ -214,16 +222,12 @@
     "IMG_0904.png",
     "Notion/Projects/New Project.md",
     "Notion/Scratchpad.md",
-    "Notion/1-1 notes.md",
-    "Notion/Getting Started.md",
-    "Welcome.md",
-    "Notion/Tasks/outils fournisseurs/outils fournisseurs.md",
     "Notion/Tasks/outils fournisseurs",
     "Notion/Tasks",
     "Engineering Wiki/Broadcaster-gui",
     "Projects/Intranet",
-    "Engineering Wiki",
-    "Projects",
+    "01-Resources",
+    "02-Projects",
     "Notion"
   ]
 }
