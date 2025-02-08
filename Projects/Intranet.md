@@ -2,18 +2,14 @@
 Owner: Jeremie Cyrille
 tags:
   - project
-Last edited time: 2024-08-05T18:30
+Last edited time: 2024-08-14T15:11
 ---
-https://github.com/ka2b/Broadcast-gui
-
-https://github.com/ka2b/Broadcaster
-
-## Introduction
+https://github.com/ka2b/intranet_fournisseur
 
 - [[#Introduction]]
-- [[#Codebase]]
-- [[#Code quality]]
-- [[#Architecture]]
+    - [[#Codebase]]
+    - [[#Code quality]]
+    - [[#Architecture]]
 - [[#Installation]]
     - [[#Prérequis]]
     - [[#Git]]
@@ -21,55 +17,16 @@ https://github.com/ka2b/Broadcaster
 - [[#Pour débuter]]
     - [[#Base de donnée]]
     - [[#Build]]
+- [[#UX/UI]]
 
----
+# Introduction
 
-Le Projet Broadcaster SAP Analytics Cloud est une initiative visant à améliorer la diffusion des rapports utilisateurs depuis [SAP Analytics Cloud](https://www.sap.com/products/technology-platform/cloud-analytics.html) (SAC). L'objectif principal du projet est de permettre une distribution automatique et personnalisée des rapports afin que les bonnes informations soient envoyées aux bonnes personnes au bon moment.
+Ka2b possède **deux types de consultants** : les **salariés** et les **fournisseurs**, qui, à la fin du mois, doivent déclarer leur présence et sur quel projet ils ont travaillé.
 
-Le Broadcaster SAP Analytics Cloud récupère les rapports depuis le SAP cloud, identifie les différents e-mails associés à l'envoi de ce rapport pour la date spécifiée, et envoie ces e-mails avec les rapports intégrés.
+Le but de cette application est de permettre **deux choses** :
 
-Plusieurs fonctionnalités y sont incluses :
-
-- Diffusion Personnalisée
-    
-    Le produit permet de maximiser l'efficacité de la communication en l'adressant directement au public visé  
-    grâce à une diffusion personnalisée. Il est également possible d'envoyer les rapports sous format PDF et ZIP  
-    pour une plus grande flexibilité.  
-    
-    - Report : Les documents générés sur les services peuvent être facilement récupérés pour être  
-        intégrés ensuite au Broadcaster, assurant ainsi une gestion fluide et efficace des  
-        communications.  
-        
-    - Mail : Chaque e-mail peut être personnalisé selon le destinataire, avec la possibilité de définir  
-        un sujet spécifique et de sélectionner les fichiers à joindre pour chaque personne concernée.  
-        18  
-        
-- Planification Maîtrisée
-    
-    La fonctionnalité de planification permet d'organiser efficacement les tâches, réunions et événements,  
-    garantissant une gestion optimisée de l'emploi du temps.  
-    
-    - Schedule : L'envoi des e-mails peut être planifié avec précision. Il est possible de choisir une  
-        date et une heure spécifiques pour chaque envoi et d'ajuster ces paramètres selon les besoins.  
-        • Surveillance Approfondie  
-        
-    - Monitoring : Les envois peuvent être surveillés attentivement. Ce système de surveillance  
-        alerte en cas d'erreur lors de l'envoi des e-mails, garantissant une fiabilité sans faille.  
-        
-- Surveillance Approfondie
-    
-    Le suivi en temps réel des performances du système assure une gestion proactive et efficace des  
-    opérations.  
-    
-    - Monitoring : Les envois peuvent être surveillés attentivement. Ce système de surveillance  
-        alerte en cas d'erreur lors de l'envoi des e-mails, garantissant une fiabilité sans faille.  
-          
-        
-- Broadcast Flow
-    
-    Grâce à Broadcast Flow, les listes de diffusion et les rapports peuvent être administrés de manière  
-    graphique, offrant une interface visuelle qui simplifie la gestion et l'organisation des communications.  
-    
+- Permettre aux fournisseurs de remplir leur **Compte Rendu d’Activité (CRA)** afin de générer un PDF résumant leur présence.
+- Créer un hub où les fournisseurs peuvent déposer les documents importants pour l’entreprise, facilitant le travail de la comptabilité.
 
 ## Codebase
 
@@ -101,10 +58,6 @@ développement et améliorer l'expérience utilisateur.
     
     React-hook-form est une bibliothèque pour gérer les formulaires dans les applications React. Elle permet de créer des formulaires performants et faciles à utiliser, en gérant les états des entrées et les validations de manière efficace.
     
-- [Nodeflow](https://reactflow.dev/learn)
-    
-    Nodeflow est une bibliothèque ou un outil utilisé pour gérer des flux de travail et des processus de manière graphique et interactive. Il permet de visualiser, organiser et exécuter des séquences de tâches de manière efficace, facilitant ainsi la gestion et l'automatisation des processus complexes.
-    
 - [Zod resolver](https://zod.dev/)
     
     Zod est une bibliothèque de validation de schémas pour TypeScript et JavaScript. Elle permet de définir des schémas de données et de valider facilement des objets contre ces schémas, assurant ainsi que les données respectent les structures et types attendus.
@@ -112,6 +65,10 @@ développement et améliorer l'expérience utilisateur.
 - [Prisma](https://www.prisma.io/docs)
     
     Prisma est un ORM (Object-Relational Mapping) moderne pour Node.js et TypeScript. Il simplifie l'interaction avec les bases de données en fournissant un API type-safe pour effectuer des requêtes, des migrations de schéma et bien plus encore, facilitant ainsi le développement et la maintenance des applications.
+    
+- [Nextauth](https://next-auth.js.org/getting-started/example)
+    
+    NextAuth.js est une bibliothèque d'authentification pour les applications Next.js. Elle permet d'ajouter facilement des fonctionnalités d'authentification sécurisées, telles que la connexion avec des fournisseurs OAuth (comme Google, Facebook, etc.), des identifiants, et la gestion des sessions utilisateur. NextAuth.js simplifie l'intégration de diverses méthodes d'authentification et offre une personnalisation flexible, tout en assurant une sécurité robuste pour les applications web.
     
 
 > [!important] Dans notre cas, nous avons utilisé Docker comme environnement d’exécution de développement. See
@@ -142,28 +99,25 @@ Nous avons choisi [PostgreSQL](https://www.postgresql.org/docs/) comme système 
 
 > [!important] Tree view du project
 > 
-> BROADCAST-GUI  
+> intranet  
 > ┣ .devcontainer // contient les information pour docker  
 > ┣ .github  
 > ┃ ┣ workflows // contient les github action pour la CI/CD  
 > ┣ .husky // contient les command test a lancer avant un commit  
 > ┣ .vscode // contient des fichier de debug pour vscode  
-> ┣ cypress //contioen les fichier test  
 > ┣ prisma // contient le schemas et les changement de la BDD  
 > ┃ ┣ migration  
 > ┣ public  
 > ┣ src  
 > ┃ ┣ app // dossier ou son situer les page du site  
-> ┃ ┃ ┣ (auth) // tt les fichier du type “(a)“ on un layout different  
-> ┃ ┃ ┣ (default) / tt les fichier du type “(a)“ on un layout different  
+> ┃ ┃ ┣ (auth) // tt les fichier avec un layout simplifier pour l’authentification  
+> ┃ ┃ ┣ (default) / tt les fichier avec le layout de base  
 > ┃ ┃ ┃ ┣ api // ce dossier correspond a notre REST api  
-> ┃ ┃ ┣ (flow) / tt les fichier du type “(a)“ on un layout different  
-> ┃ ┣ components // contient les element a inseret dans les page du dossier app  
+> ┃ ┣ components // contient les element a inserer dans les page du dossier app  
 > ┃ ┃ ┣ forms // contient tout les formulaire  
 > ┃ ┃ ┣ layouts // contient tout ce qui est en lien a ui( navbar, sidebar, etc…)  
 > ┃ ┃ ┣ tables // contient toute les tables  
 > ┃ ┃ ┣ ui // dossier creer par la librairy Shadcn  
-> ┃ ┃ ┣ zui  
 > ┃ ┣ configs // contient des ficher de config  
 > ┃ ┣ lib  
 > ┃ ┣ types  
@@ -181,7 +135,7 @@ On utilise la configuration standard de Nextjs
 > 
 > - NodeJS v18+
 > - npm
-> - PostgresSQL server
+> - PostgresSQL server(in a docker container)
 > - dotenv-cli(using npm)
 > 
 > Un Docker-compose contenant une image Postgres et un Admirer est present dans tout les project
@@ -286,11 +240,11 @@ lancer le program en utilisant la touche ==`**F5**`== ==ou en faisant ceci:==
 aller ici:  
   
 
-![[Untitled.png]]
+
 
 sélectionner un mode de lancer ou script a executer
 
-![[Untitled 1.png]]
+
 
 et clicker sur le button play.
 
@@ -313,3 +267,7 @@ Afin de lancer la version build du program:
 ```Shell
 npm run start
 ```
+
+# UX/UI
+
+https://www.figma.com/design/4gUWtsuAuUyBVL9hcw1z0w/intranet2.0?node-id=0-1&t=OtyLNdFJZRM1TPRO-0

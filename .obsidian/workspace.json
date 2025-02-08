@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a34156700d732b7b",
+        "id": "6ae818e6a7f15b38",
         "type": "tabs",
         "children": [
           {
-            "id": "a05f7c032e707791",
+            "id": "1b4573b40b1b71c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notion/Engineering Wiki/Broadcaster-gui/Broadcaster-gui.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Broadcaster-gui"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -94,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notion/Engineering Wiki/Broadcaster-gui/Broadcaster-gui.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Broadcaster-gui"
             }
           },
           {
@@ -137,7 +134,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
               "title": "Outline"
             }
@@ -153,7 +154,7 @@
             }
           },
           {
-            "id": "1a135334922e05a5",
+            "id": "eea1ffb0916cacd8",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -184,44 +185,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a05f7c032e707791",
+  "active": "1b4573b40b1b71c8",
   "lastOpenFiles": [
+    "2025-02-08.md",
+    "Untitled.md",
+    "Daily notes",
+    "Engineering Wiki/Engineering Wiki.md",
+    "Engineering Wiki/Docker.md",
+    "Engineering Wiki/Code Reviews.md",
+    "Projects/Broadcast-cron.md",
+    "Engineering Wiki/Eslint et Prettier.md",
+    "Engineering Wiki/GIT.md",
+    "Engineering Wiki/GITHUB action.md",
+    "Engineering Wiki/Onboarding.md",
+    "Projects/Intranet.md",
+    "Projects/Broadcaster-gui.md",
+    "Untitled.png.md",
+    "Untitled 1.png.md",
+    "Projects/Intranet fournisseur.md",
+    "Projects/Site Vitrine.md",
+    "Projects/Projects.md",
+    "Projects/Broadcaster.md",
+    "Projects/Intranet/Intranet.md",
     "Untitled 1 2.png",
     "Untitled 2.png",
-    "Notion/Tasks/outils fournisseurs/outils fournisseurs.md",
-    "Notion/Tasks/code de generation de pdf.md",
-    "Notion/Tasks/Task.md",
-    "Notion/Tasks/configure nodemailer.md",
-    "Notion/Tasks/generation pdf.md",
-    "Notion/Tasks/faire le systeme cra pour les sous-traitant.md",
-    "Notion/Tasks/fix dependencies 2.md",
-    "Notion/Tasks/mise en place de la db.md",
-    "Notion/Tasks/create cron job.md",
-    "Notion/Tasks/confirmer  l’interface graphique.md",
-    "Notion/Tasks/add astreinte column.md",
-    "Notion/Tasks/faire le formulaire.md",
-    "Notion/Tasks/Untitled.md",
-    "Notion/Tasks/add edit et delete button to column.md",
-    "Notion/Tasks/transfert repository request to api endpoint.md",
-    "Notion/Tasks/modify query to omform to norm.md",
-    "Notion/Tasks/interface admin.md",
-    "Notion/Tasks/faire le formulaire du cra.md",
-    "Notion/Tasks/add create button to home page.md",
-    "Notion/Tasks/fix dependencies.md",
-    "Notion/Tasks/rework the the upload to SW3 bucket.md",
-    "Notion/Tasks/Cra Generator.md",
-    "Notion/Tasks/faire le formualaire des astreinte.md",
-    "Notion/Tasks/faire la page compte rendue d’activité.md",
-    "Notion/Tasks/fix package dependecies.md",
     "Untitled 1.png",
     "Untitled.png",
     "IMG_0904.png",
+    "Notion/Projects/New Project.md",
+    "Notion/Scratchpad.md",
+    "Notion/1-1 notes.md",
+    "Notion/Getting Started.md",
+    "Welcome.md",
+    "Notion/Tasks/outils fournisseurs/outils fournisseurs.md",
     "Notion/Tasks/outils fournisseurs",
     "Notion/Tasks",
-    "Notion/Engineering Wiki/Broadcaster-gui",
-    "Notion/Projects/Intranet",
-    "Notion/Engineering Wiki",
-    "Notion/Projects",
+    "Engineering Wiki/Broadcaster-gui",
+    "Projects/Intranet",
+    "Engineering Wiki",
+    "Projects",
     "Notion"
   ]
 }
