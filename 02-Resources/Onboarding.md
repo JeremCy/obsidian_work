@@ -108,4 +108,7 @@ JETBRAIN:
 
 Neovim
 
+>[!info] SETUP NEOVIM
+>
 [https://www.youtube.com/watch?v=8um8OYwvz3c](https://www.youtube.com/watch?v=8um8OYwvz3c)
+

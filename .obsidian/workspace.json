@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "02c2f39d6e07b4f7",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "f761ade21a08389f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -27,22 +27,10 @@
     "type": "split",
     "children": [
       {
-        "id": "3cf146e7d68f8136",
+        "id": "12984e6020052a94",
         "type": "tabs",
+        "dimension": 23.668639053254438,
         "children": [
-          {
-            "id": "9552837e533a2557",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
           {
             "id": "79b54d6becc34f9f",
             "type": "leaf",
@@ -59,6 +47,26 @@
               "icon": "lucide-search",
               "title": "Search"
             }
+          }
+        ]
+      },
+      {
+        "id": "3cf146e7d68f8136",
+        "type": "tabs",
+        "dimension": 38.57988165680473,
+        "children": [
+          {
+            "id": "9552837e533a2557",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
           },
           {
             "id": "8eac7fabf01b48ad",
@@ -68,6 +76,23 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5f5e323789bc83fa",
+        "type": "tabs",
+        "dimension": 37.751479289940825,
+        "children": [
+          {
+            "id": "1ac1dd6e657ea4dd",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -117,41 +142,17 @@
             }
           },
           {
-            "id": "4dca986e14f73b22",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
             "id": "9f35fdccda315ade",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Daily notes/20250208.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 20250208"
-            }
-          },
-          {
-            "id": "1ac1dd6e657ea4dd",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "title": "Outline"
             }
           },
           {
@@ -163,51 +164,67 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "4dca986e14f73b22",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
+      "daily-notes:Open today's daily note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": true,
+      "obsidian-importer:Open Importer": true,
       "obsidian-kanban:Create new board": false,
-      "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false
+      "templater-obsidian:Templater": true
     }
   },
-  "active": "9552837e533a2557",
+  "active": "f761ade21a08389f",
   "lastOpenFiles": [
-    "04-Areas",
+    "99-Templates/(TEMPLATE) Daily (Vanilla).md",
     "00-Daily/20250208.md",
-    "01-Resources/Code Reviews.md",
+    "02-Resources/Onboarding.md",
+    "02-Resources/GITHUB action.md",
+    "02-Resources/GIT.md",
+    "02-Resources/Eslint et Prettier.md",
+    "01-Areas",
+    "02-Resources/Code Reviews.md",
     "00-Daily notes/2025-02-08.md",
-    "03-Templates/(TEMPLATE) Daily.md",
-    "03-Templates/(TEMPLATE) Daily (Vanilla).md",
-    "03-Templates",
+    "99-Templates/(TEMPLATE) Daily.md",
+    "99-Templates",
     "2025-02-08.md",
     "Untitled.md",
     "00-Daily",
     "Engineering Wiki/Engineering Wiki.md",
-    "01-Resources/Docker.md",
-    "02-Projects/Broadcast-cron.md",
-    "01-Resources/Eslint et Prettier.md",
-    "01-Resources/GIT.md",
-    "01-Resources/GITHUB action.md",
-    "01-Resources/Onboarding.md",
-    "02-Projects/Intranet.md",
-    "02-Projects/Broadcaster-gui.md",
+    "02-Resources/Docker.md",
+    "03-Projects/Broadcast-cron.md",
+    "03-Projects/Intranet.md",
+    "03-Projects/Broadcaster-gui.md",
     "Untitled.png.md",
     "Untitled 1.png.md",
     "Projects/Intranet fournisseur.md",
@@ -226,8 +243,8 @@
     "Notion/Tasks",
     "Engineering Wiki/Broadcaster-gui",
     "Projects/Intranet",
-    "01-Resources",
-    "02-Projects",
+    "02-Resources",
+    "03-Projects",
     "Notion"
   ]
 }

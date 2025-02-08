@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiPackage",
-      "LiBookText",
-      "LiCalendar",
-      "LiBookTemplate",
-      "LiCode2"
+      "LiMoreVertical",
+      "LiHome",
+      "LiGithub",
+      "🐳",
+      "LiPackage"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,9 +34,14 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "02-Projects": "LiCode2",
-  "03-Templates": "LiBookTemplate",
-  "01-Resources": "LiBookText",
-  "04-Areas": "LiPackage",
-  "00-Daily": "LiCalendar"
+  "00-Daily": "LiCalendar",
+  "99-Templates": "LiMoreVertical",
+  "01-Areas": "LiPackage",
+  "02-Resources": "LiBookText",
+  "02-Resources/Code Reviews.md": "LiCode2",
+  "02-Resources/Docker.md": "🐳",
+  "02-Resources/GIT.md": "LiGithub",
+  "02-Resources/GITHUB action.md": "LiGithub",
+  "02-Resources/Onboarding.md": "LiHome",
+  "03-Projects": "LiCode2"
 }
