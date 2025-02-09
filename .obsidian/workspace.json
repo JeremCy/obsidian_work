@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "02c2f39d6e07b4f7",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "f761ade21a08389f",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -204,7 +204,7 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "f761ade21a08389f",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "99-Templates/(TEMPLATE) Daily (Vanilla).md",
     "00-Daily/20250208.md",
