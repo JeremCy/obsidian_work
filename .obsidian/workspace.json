@@ -18,8 +18,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.8.7"
             }
+          },
+          {
+            "id": "795d438395446596",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-02-26 11.25.09.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-26 11.25.09.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,8 +219,10 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "795d438395446596",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-02-26 11.25.09.excalidraw.md",
+    "Excalidraw",
     "Untitled Kanban.md",
     "00-Daily/20254102/09/25.md",
     "00-Daily/20250208.md",
@@ -229,7 +244,6 @@
     "01-Areas",
     "02-Resources/Code Reviews.md",
     "00-Daily notes/2025-02-08.md",
-    "99-Templates",
     "2025-02-08.md",
     "Untitled.md",
     "Engineering Wiki/Engineering Wiki.md",
@@ -243,7 +257,6 @@
     "Projects/Site Vitrine.md",
     "Projects/Projects.md",
     "Projects/Broadcaster.md",
-    "Projects/Intranet/Intranet.md",
     "Untitled 1 2.png",
     "Untitled 2.png",
     "Untitled 1.png",
