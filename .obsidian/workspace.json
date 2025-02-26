@@ -11,10 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
             }
           }
         ]
@@ -204,7 +206,7 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "79b54d6becc34f9f",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Untitled Kanban.md",
     "00-Daily/20254102/09/25.md",
