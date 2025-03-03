@@ -11,10 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-03 15.01.24.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-03 15.01.24.excalidraw"
             }
           }
         ]
@@ -206,6 +208,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-03-03 15.01.24.excalidraw.md",
     "Excalidraw/Drawing 2025-02-26 11.25.09.excalidraw.md",
     "Excalidraw",
     "Untitled Kanban.md",
@@ -241,7 +244,6 @@
     "Projects/Intranet fournisseur.md",
     "Projects/Site Vitrine.md",
     "Projects/Projects.md",
-    "Projects/Broadcaster.md",
     "Untitled 1 2.png",
     "Untitled 2.png",
     "Untitled 1.png",
