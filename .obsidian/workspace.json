@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00-Daily/20250304.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "20250304"
             }
           }
         ]
@@ -206,6 +210,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "00-Daily/20250304.md",
     "Excalidraw/Drawing 2025-03-03 15.01.24.excalidraw.md",
     "Excalidraw/Drawing 2025-02-26 11.25.09.excalidraw.md",
     "Excalidraw",
@@ -241,7 +246,6 @@
     "Untitled 1.png.md",
     "Projects/Intranet fournisseur.md",
     "Projects/Site Vitrine.md",
-    "Projects/Projects.md",
     "Untitled 1 2.png",
     "Untitled 2.png",
     "Untitled 1.png",
