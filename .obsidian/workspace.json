@@ -11,28 +11,17 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
-            }
-          },
-          {
-            "id": "2a37e095d627ebdb",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-03-31 14.55.09.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-31 14.55.09.excalidraw"
+              "icon": "lucide-file",
+              "title": "Untitled 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,8 +208,9 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "d0c787982bd03586",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Untitled 1.md",
     "Excalidraw/Drawing 2025-03-31 14.55.09.excalidraw.md",
     "Untitled.md",
     "Excalidraw/Drawing 2025-02-26 11.25.09.excalidraw.md",
@@ -256,7 +246,6 @@
     "03-Projects/Broadcaster-gui.md",
     "Untitled.png.md",
     "Untitled 1.png.md",
-    "Projects/Intranet fournisseur.md",
     "Untitled 1 2.png",
     "Untitled 2.png",
     "Untitled 1.png",
