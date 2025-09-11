@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "03-Projects/Intranet.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Intranet"
             }
           }
         ]
@@ -27,33 +31,8 @@
     "type": "split",
     "children": [
       {
-        "id": "12984e6020052a94",
-        "type": "tabs",
-        "dimension": 23.668639053254438,
-        "children": [
-          {
-            "id": "79b54d6becc34f9f",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          }
-        ]
-      },
-      {
         "id": "3cf146e7d68f8136",
         "type": "tabs",
-        "dimension": 38.57988165680473,
         "children": [
           {
             "id": "9552837e533a2557",
@@ -79,23 +58,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "5f5e323789bc83fa",
-        "type": "tabs",
-        "dimension": 37.751479289940825,
-        "children": [
-          {
-            "id": "1ac1dd6e657ea4dd",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -115,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notion/Engineering Wiki/Broadcaster-gui/Broadcaster-gui.md",
+                "file": "03-Projects/Intranet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +87,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Broadcaster-gui"
+              "title": "Backlinks for Intranet"
             }
           },
           {
@@ -134,11 +96,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "03-Projects/Intranet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Intranet"
             }
           },
           {
@@ -147,12 +110,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "03-Projects/Intranet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Intranet"
             }
           },
           {
@@ -161,8 +125,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -179,42 +143,76 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
+          },
+          {
+            "id": "79b54d6becc34f9f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
+      },
+      {
+        "id": "6b275f60685f3496",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ac1dd6e657ea4dd",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
-      "homepage:Open homepage": false,
       "daily-notes:Open today's daily note": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": true,
-      "obsidian-importer:Open Importer": true,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-importer:Open Importer": false,
       "obsidian-kanban:Create new board": false,
-      "templater-obsidian:Templater": true
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "03-Projects/SAP CLOUD.md",
+    "03-Projects/Broadcast-cron.md",
     "Excalidraw/Drawing 2025-04-28 11.26.26.excalidraw.md",
-    "Untitled 1.md",
+    "Excalidraw/Drawing 2025-03-03 15.01.24.excalidraw.md",
     "Excalidraw/Drawing 2025-03-31 14.55.09.excalidraw.md",
-    "Untitled.md",
     "Excalidraw/Drawing 2025-02-26 11.25.09.excalidraw.md",
+    "Untitled.md",
+    "Untitled 1.md",
     "02-Resources/Docker.md",
     "00-Daily/20250304.md",
-    "Excalidraw/Drawing 2025-03-03 15.01.24.excalidraw.md",
     "Excalidraw",
     "Untitled Kanban.md",
     "00-Daily/20254102/09/25.md",
@@ -239,10 +237,8 @@
     "00-Daily notes/2025-02-08.md",
     "2025-02-08.md",
     "Engineering Wiki/Engineering Wiki.md",
-    "03-Projects/Broadcast-cron.md",
     "03-Projects/Intranet.md",
     "03-Projects/Broadcaster-gui.md",
-    "Untitled.png.md",
     "Untitled 1 2.png",
     "Untitled 2.png",
     "Untitled 1.png",
