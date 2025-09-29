@@ -5,7 +5,8 @@
   "translucency": false,
   "enabledCssSnippets": [
     "Colored Sidebar Items",
-    "General_Tweaks"
+    "General_Tweaks",
+    "Daily Note Themes"
   ],
-  "accentColor": ""
+  "accentColor": "#6bc8ef"
 }

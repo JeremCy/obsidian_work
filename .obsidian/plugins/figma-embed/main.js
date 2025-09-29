@@ -32,20 +32,58 @@ var FigmaEmbedPlugin = class extends import_obsidian.Plugin {
   async onload() {
     this.registerMarkdownPostProcessor(this.figmaEmbedProcessor.bind(this));
   }
+  /**
+   * Markdown post processor function to find Figma links and potentially embed them based on URL patterns.
+   * This version relies ONLY on pattern matching. If a URL matches a pattern, it attempts to embed.
+   * URLs not matching patterns (or matching patterns but failing to load) will remain as links.
+   *
+   * @param el - The HTML element being processed.
+   * @param ctx - The context of the markdown processing.
+   */
   figmaEmbedProcessor(el, ctx) {
     const figmaLinks = el.querySelectorAll(
       'a[href^="https://www.figma.com/"]'
     );
+    const embeddablePatterns = [
+      /\/file\/[^\/]+/,
+      // Matches /file/ followed by one or more non-slash characters
+      /\/design\/[^\/]+/,
+      // Matches /design/ followed by one or more non-slash characters
+      /\/proto\/[^\/]+/,
+      // Matches /proto/ followed by one or more non-slash characters
+      /\/board\/[^\/]+/,
+      // Matches /board/ followed by one or more non-slash characters
+      /\/slides\/[^\/]+/,
+      // Matches /slides/ followed by one or more non-slash characters
+      /\/deck\/[^\/]+/,
+      // Matches /deck/ followed by one or more non-slash characters
+      /\/buzz\/[^\/]+/,
+      // Matches /buzz/ followed by one or more non-slash characters
+      /\/site\/[^\/]+/
+      // Matches /site/ followed by one or more non-slash characters
+    ];
     figmaLinks.forEach((link) => {
       var _a;
       const figmaUrl = link.href;
-      const iframe = document.createElement("iframe");
-      iframe.src = `https://www.figma.com/embed?embed_host=obsidian&url=${encodeURIComponent(
-        figmaUrl
-      )}`;
-      iframe.classList.add("figmaembed-iframe");
-      (_a = link.parentNode) == null ? void 0 : _a.replaceChild(iframe, link);
+      const isEmbeddableUrl = embeddablePatterns.some((pattern) => pattern.test(figmaUrl));
+      if (isEmbeddableUrl) {
+        const iframe = document.createElement("iframe");
+        iframe.src = `https://www.figma.com/embed?embed_host=obsidian&url=${encodeURIComponent(
+          figmaUrl
+        )}`;
+        iframe.classList.add("figmaembed-iframe");
+        iframe.style.width = "100%";
+        iframe.style.height = "450px";
+        iframe.style.border = "none";
+        iframe.setAttribute("allowfullscreen", "true");
+        (_a = link.parentNode) == null ? void 0 : _a.replaceChild(iframe, link);
+      } else {
+      }
     });
+  }
+  // <- END of figmaEmbedProcessor content
+  // This part stays the same
+  async onunload() {
   }
 };
 

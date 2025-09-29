@@ -1,3 +1,12 @@
+---
+tags:
+  - project
+  - Testing
+Owner: Jeremie Cyrille
+Last edited time: 2025-09-29T15:13:00
+id: "25"
+---
+
 sphere et databricks
 formation PL300
 
@@ -18,3 +27,5 @@ POC:
 - FIchier de configuration en cour,
 - configuere l'instance avec 
 - on le fait en on premise
+code 60 day trial 
+- CB8609EF0ABE599A
