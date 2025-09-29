@@ -1,10 +1,11 @@
 {
   "monospaceFontFamily": "MesloLGL Nerd Font Mono",
-  "cssTheme": "Things",
+  "cssTheme": "Catppuccin",
   "theme": "obsidian",
   "translucency": false,
   "enabledCssSnippets": [
     "Colored Sidebar Items",
     "General_Tweaks"
-  ]
+  ],
+  "accentColor": ""
 }
