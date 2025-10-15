@@ -49,3 +49,90 @@ store/saplabs/hanaexpress:<tag> \
 --agree-to-sap-license
 ```
 `
+```bash
+# Ce code est compatible avec Terraform 4.25.0, ainsi qu'avec les versions rétrocompatibles avec 4.25.0.
+# Pour en savoir plus sur la validation de ce code Terraform, consultez la page https://developer.hashicorp.com/terraform/tutorials/gcp-get-started/google-cloud-platform-build#format-and-validate-the-configuration
+
+resource "google_compute_instance" "sles-15-sp5-sap-20251015-001159" {
+  boot_disk {
+    auto_delete = true
+    device_name = "sles-15-sp5-sap-20251015-001159"
+
+    initialize_params {
+      image = "projects/suse-sap-cloud/global/images/sles-15-sp5-sap-v20250610-x86-64"
+      size  = 10
+      type  = "pd-balanced"
+    }
+
+    mode = "READ_WRITE"
+  }
+
+  can_ip_forward      = false
+  deletion_protection = false
+  enable_display      = false
+
+  labels = {
+    goog-ec-src           = "vm_add-tf"
+    goog-gcp-marketplace  = ""
+    goog-ops-agent-policy = "v2-x86-template-1-4-0"
+  }
+
+  machine_type = "e2-medium"
+
+  metadata = {
+    enable-osconfig = "TRUE"
+    enable-oslogin  = "true"
+  }
+
+  name = "sles-15-sp5-sap-20251015-001159"
+
+  network_interface {
+    access_config {
+      network_tier = "PREMIUM"
+    }
+
+    queue_count = 0
+    stack_type  = "IPV4_ONLY"
+    subnetwork  = "projects/sap-test-473708/regions/us-central1/subnetworks/default"
+  }
+
+  scheduling {
+    automatic_restart   = true
+    on_host_maintenance = "MIGRATE"
+    preemptible         = false
+    provisioning_model  = "STANDARD"
+  }
+
+  service_account {
+    email  = "435075021851-compute@developer.gserviceaccount.com"
+    scopes = ["https://www.googleapis.com/auth/devstorage.read_only", "https://www.googleapis.com/auth/logging.write", "https://www.googleapis.com/auth/monitoring.write", "https://www.googleapis.com/auth/service.management.readonly", "https://www.googleapis.com/auth/servicecontrol", "https://www.googleapis.com/auth/trace.append"]
+  }
+
+  shielded_instance_config {
+    enable_integrity_monitoring = true
+    enable_secure_boot          = false
+    enable_vtpm                 = true
+  }
+
+  zone = "us-central1-a"
+}
+
+module "ops_agent_policy" {
+  source          = "github.com/terraform-google-modules/terraform-google-cloud-operations/modules/ops-agent-policy"
+  project         = "sap-test-473708"
+  zone            = "us-central1-a"
+  assignment_id   = "goog-ops-agent-v2-x86-template-1-4-0-us-central1-a"
+  agents_rule = {
+    package_state = "installed"
+    version = "latest"
+  }
+  instance_filter = {
+    all = false
+    inclusion_labels = [{
+      labels = {
+        goog-ops-agent-policy = "v2-x86-template-1-4-0"
+      }
+    }]
+  }
+}
+```
