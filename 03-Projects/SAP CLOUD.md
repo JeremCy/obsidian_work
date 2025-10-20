@@ -138,3 +138,55 @@ module "ops_agent_policy" {
 ```
 
 o4eWwwq2YAvtqILaI0wd
+
+
+module "s4" {
+  source = "gcs::https://www.googleapis.com/storage/v1/cloudsapdeploy/deployments/latest/terraform_s4.zip"
+
+  primary_startup_url      = var.module.s4.primary_startup_url
+  package_location         = var.module.s4.package_location
+  deployment_name          = var.module.s4.deployment_name
+  zone1_name               = var.module.s4.zone1_name
+  existing_dns_zone_name   = var.module.s4.existing_dns_zone_name
+  app_machine_type         = var.module.s4.app_machine_type
+  sap_boot_disk_image_app  = var.module.s4.sap_boot_disk_image_app
+  sap_boot_disk_image_ascs = var.module.s4.sap_boot_disk_image_ascs
+  sap_boot_disk_image_db   = var.module.s4.sap_boot_disk_image_db
+  sap_version              = var.module.s4.sap_version
+  vpc_name                 = var.module.s4.vpc_name
+  network_project          = var.module.s4.network_project
+  db_machine_type          = var.module.s4.db_machine_type
+  app_vms_multiplier       = var.module.s4.app_vms_multiplier
+  app_sid                  = var.module.s4.app_sid
+  gcp_project_id           = var.module.s4.gcp_project_id
+  vm_prefix                = var.module.s4.vm_prefix
+  media_bucket_name        = var.module.s4.media_bucket_name
+  ascs_machine_type        = var.module.s4.ascs_machine_type
+  region_name              = var.module.s4.region_name
+  db_sid                   = var.module.s4.db_sid
+  sap_instance_id_db       = var.module.s4.sap_instance_id_db
+  sap_instance_id_ascs     = var.module.s4.sap_instance_id_ascs
+  sap_instance_id_app      = var.module.s4.sap_instance_id_app
+  app_disk_type            = var.module.s4.app_disk_type
+  ascs_disk_type           = var.module.s4.ascs_disk_type
+  db_data_disk_type        = var.module.s4.db_data_disk_type
+  db_disk_type             = var.module.s4.db_disk_type
+  db_log_disk_type         = var.module.s4.db_log_disk_type
+  hana_secret_name         = var.module.s4.hana_secret_name
+  application_secret_name  = var.module.s4.application_secret_name
+  subnet_name              = var.module.s4.subnet_name
+  filestore_location       = var.module.s4.filestore_location
+  public_ip                = var.module.s4.public_ip
+  public_ansible_runner_ip = var.module.s4.public_ansible_runner_ip
+  create_comms_firewall    = var.module.s4.create_comms_firewall
+  deployment_has_dns       = var.module.s4.deployment_has_dns
+  db_sa_email              = var.module.s4.db_sa_email
+  ascs_sa_email            = var.module.s4.ascs_sa_email
+  app_sa_email             = var.module.s4.app_sa_email
+  custom_tags              = var.module.s4.custom_tags
+  app_vm_names             = var.module.s4.app_vm_names
+  fstore_mount_point       = var.module.s4.fstore_mount_point
+  db_vm_names              = var.module.s4.db_vm_names
+  ascs_vm_names            = var.module.s4.ascs_vm_names
+  disk_size_map            = var.module.s4.disk_size_map
+}
