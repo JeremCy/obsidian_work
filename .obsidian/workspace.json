@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-Projects/intranet/ALAN.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ALAN"
+              "title": "New tab"
             }
           }
         ]
@@ -201,10 +197,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9552837e533a2557",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "03-Projects/intranet/CRA.md",
     "03-Projects/intranet/ALAN.md",
+    "03-Projects/intranet/CRA.md",
     "03-Projects/SAP CLOUD.md",
     "03-Projects/Intranet.md",
     "03-Projects/Broadcast-cron.md",
