@@ -11,15 +11,28 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "excalidraw",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "Excalidraw/Drawing 2025-02-26 11.25.09.excalidraw.md"
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-26 11.25.09.excalidraw"
+            }
+          },
+          {
+            "id": "3eb68db9dccf7355",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-04-22 09.57.48.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-04-22 09.57.48.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,8 +212,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "3eb68db9dccf7355",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-02-26 11.25.09.excalidraw.md",
+    "Excalidraw/Drawing 2026-04-22 09.57.48.excalidraw.md",
     "Excalidraw/Drawing 2026-02-09 13.21.48.excalidraw.md",
     "2025-12-12.md",
     "image2.png",
@@ -215,7 +230,6 @@
     "03-Projects/intranet/Titre restaurant.md",
     "03-Projects/intranet/Titre de transport.md",
     "03-Projects/intranet/CSE (Club employés).md",
-    "Excalidraw/Drawing 2025-02-26 11.25.09.excalidraw.md",
     "03-Projects/SAP CLOUD.md",
     "03-Projects/Intranet.md",
     "03-Projects/Broadcast-cron.md",
@@ -238,7 +252,6 @@
     "00-Daily/20253502",
     "00-Daily/2025YYY21M02/09/25D.md",
     "02-Resources/Onboarding.md",
-    "02-Resources/GITHUB action.md",
     "01-Areas",
     "Untitled 1 2.png",
     "Untitled 2.png",
