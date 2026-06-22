@@ -11,12 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "excalidraw",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "Excalidraw/Drawing 2026-06-22 14.21.11.excalidraw.md"
               },
-              "icon": "lucide-book-up",
-              "title": "Notes de version 1.12.7"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-06-22 14.21.11.excalidraw"
             }
           }
         ]
@@ -59,7 +59,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "1b139e815fda9aba",
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,8 +200,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c9076e92aa2f5ae1",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-06-22 14.21.11.excalidraw.md",
+    "Excalidraw/Drawing 2026-06-02 15.39.02.excalidraw.md",
+    "Excalidraw",
+    "02-Resources/Docker.md",
+    "02-Resources/GIT.md",
+    "03-Projects/Intranet.md",
+    "03-Projects/Broadcast-cron.md",
+    "03-Projects/Broadcaster-gui.md",
+    "03-Projects/SAP CLOUD.md",
     "Excalidraw/Drawing 2026-04-22 09.57.48.excalidraw.md",
     "Excalidraw/Drawing 2025-02-26 11.25.09.excalidraw.md",
     "Excalidraw/Drawing 2026-02-09 13.21.48.excalidraw.md",
@@ -217,18 +227,11 @@
     "03-Projects/intranet/Titre restaurant.md",
     "03-Projects/intranet/Titre de transport.md",
     "03-Projects/intranet/CSE (Club employés).md",
-    "03-Projects/SAP CLOUD.md",
-    "03-Projects/Intranet.md",
-    "03-Projects/Broadcast-cron.md",
     "Excalidraw/Drawing 2025-04-28 11.26.26.excalidraw.md",
     "Excalidraw/Drawing 2025-03-03 15.01.24.excalidraw.md",
     "Excalidraw/Drawing 2025-03-31 14.55.09.excalidraw.md",
     "Untitled.md",
     "Untitled 1.md",
-    "02-Resources/Docker.md",
-    "Excalidraw",
-    "Untitled Kanban.md",
-    "00-Daily/20250208.md",
     "00-Daily/20254102/09",
     "00-Daily/20254102",
     "00-Daily/20254002/09",
@@ -237,8 +240,6 @@
     "00-Daily/20253602",
     "00-Daily/20253502/09",
     "00-Daily/20253502",
-    "00-Daily/2025YYY21M02/09/25D.md",
-    "02-Resources/Onboarding.md",
     "01-Areas",
     "Untitled 1 2.png",
     "Untitled 2.png",
