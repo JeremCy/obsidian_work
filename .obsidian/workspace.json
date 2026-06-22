@@ -11,12 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-06-22 14.21.11.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-06-22 14.21.11.excalidraw"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -200,7 +198,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c9076e92aa2f5ae1",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-06-22 14.21.11.excalidraw.md",
     "Excalidraw/Drawing 2026-06-02 15.39.02.excalidraw.md",
